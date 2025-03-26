@@ -36,31 +36,28 @@ const CONFIG = new Config({
         name: 'fun',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://archiveofourown.org/',
+            name: 'Ao3',
+            icon: 'books',
+            icon_color: '#a11818'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
-            icon: 'leaf',
-            icon_color: '#64876d'
+            name: 'Letterboxd',
+            url: 'https://letterboxd.com/',
+            icon: 'brand-letterboxd',
+            icon_color: '#ff8000'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
+            name: 'HLTB',
+            url: 'https://howlongtobeat.com/',
+            icon: 'device-gamepad'
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
+            name: 'Tumblr',
+            url: 'https://www.tumblr.com/dashboard',
+            icon: 'brand-tumblr',
+            icon_color: '#001935'
           },
-          {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
-          }
         ]
       },
       {
