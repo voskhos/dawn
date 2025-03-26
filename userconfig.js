@@ -61,15 +61,19 @@ const CONFIG = new Config({
         ]
       },
       {
-        name: 'Comfy',
+        name: 'Professional',
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: 'GoQuiz',
+            url: 'https://alumnos.goquiz.es/index.html'
           },
           {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
+            name: 'Proton',
+            url: 'https://mail.proton.me/u/0/inbox'
+          }
+          {
+            name: 'Docs',
+            url: 'https://docs.google.com/document/u/0/'
           }
         ]
       },
